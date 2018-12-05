@@ -10,6 +10,7 @@ import Login from './components/login/login';
 import Register from './components/register/register';
 import Main from './components/main/main';
 
+import './assets/less/index.less';
 
 
 ReactDOM.render((
