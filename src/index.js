@@ -6,9 +6,9 @@ import ReactDOM from 'react-dom';
 import {HashRouter, Switch, Route} from 'react-router-dom';
 import {Provider} from 'react-redux';
 import store from './redux/store';
-import Login from './components/login/login';
-import Register from './components/register/register';
-import Main from './components/main/main';
+import Login from './containers/login';
+import Register from './containers/register';
+import Main from './components/main';
 
 import './assets/less/index.less';
 
@@ -23,4 +23,4 @@ ReactDOM.render((
       </Switch>
     </HashRouter>
   </Provider>
-),document.getElementById('app'))
+),document.getElementById('app'));
