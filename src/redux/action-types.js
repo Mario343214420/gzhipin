@@ -1,7 +1,13 @@
-/**
- * Created by Administrator on 2018/12/3.
+/*
+  作用：定义action的type类型
  */
+
 export const AUTH_SUCCESS = 'AUTH_SUCCESS';
 export const AUTH_ERROR = 'AUTH_ERROR';
-export const RECEIVE_USER = 'RECEIVE_USER';
-export const RESET_USER = 'RESET_USER';
+export const UPDATE_USER_INFO = 'UPDATE_USER_INFO';
+export const RESET_USER_INFO = 'RESET_USER_INFO';
+export const UPDATE_USER_LIST = 'UPDATE_USER_LIST';
+export const RESET_USER_LIST = 'RESET_USER_LIST';
+export const GET_CHAT_MESSAGES = 'GET_CHAT_MESSAGES';
+export const RESET_CHAT_MESSAGES = 'RESET_CHAT_MESSAGES';
+export const UPDATE_CHAT_MESSAGES = 'UPDATE_CHAT_MESSAGES';
